@@ -32,8 +32,8 @@ model.fit(fc_context, y_context)
 y_pred = model.predict(fc_query)
 ```
 
-[`examples/quickstart.py`](examples/quickstart.py) runs end to end on synthetic
-data. [`examples/predict_from_files.py`](examples/predict_from_files.py) runs on
+[`examples/quickstart.py`](https://gitlab.inria.fr/cbarbano/brainpfn/-/blob/main/examples/quickstart.py) runs end to end on synthetic
+data. [`examples/predict_from_files.py`](https://gitlab.inria.fr/cbarbano/brainpfn/-/blob/main/examples/predict_from_files.py) runs on
 your own `.npy` files:
 
 ```bash
@@ -139,4 +139,4 @@ If you use BrainPFN, please cite the [paper](https://inria.hal.science/hal-05767
 
 ## License
 
-MIT; see [LICENSE](LICENSE).
+MIT; see [LICENSE](https://gitlab.inria.fr/cbarbano/brainpfn/-/blob/main/LICENSE).
