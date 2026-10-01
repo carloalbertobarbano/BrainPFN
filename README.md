@@ -8,6 +8,9 @@ fast and needs only a few labelled subjects to start with.
 
 BrainPFN follows the scikit-learn API: `fit` stores the context, `predict` predicts.
 
+Paper: [BrainPFN: Amortized Brain-Behaviour Prediction via Prior-Data Fitted
+Networks](https://inria.hal.science/hal-05767107) (Barbano & Wassermann, 2026).
+
 ## Installation
 
 ```bash
@@ -121,14 +124,16 @@ scores = cross_val_score(BrainPFN(), fc, y, cv=5, scoring="r2")
 
 ## Citation
 
-If you use BrainPFN, please cite:
+If you use BrainPFN, please cite the [paper](https://inria.hal.science/hal-05767107):
 
 ```bibtex
-@misc{brainpfn,
-  title  = {BrainPFN},
-  author = {Barbano, Carlo Alberto},
-  year   = {2026},
-  note   = {TODO: paper reference}
+@article{barbano2026brainpfn,
+  title   = {BrainPFN: Amortized Brain-Behaviour Prediction via Prior-Data Fitted Networks},
+  author  = {Barbano, Carlo Alberto and Wassermann, Demian},
+  journal = {HAL preprint},
+  year    = {2026},
+  month   = sep,
+  url     = {https://inria.hal.science/hal-05767107}
 }
 ```
 

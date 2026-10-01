@@ -28,11 +28,11 @@ DEFAULT_VARIANT = "4.7M"
 # name -> download URL and SHA-256 of the released file.
 VARIANTS = {
     "0.8M": {
-        "url": None,  # TODO: public URL of brainpfn-0.8M.pt
+        "url": "https://huggingface.co/cbarbano/brainpfn/resolve/d64d6aadb44c41ca9a84da86ee905fe7943fb9b4/brainpfn-0.8M.pt",
         "sha256": "d69fbf3bb37811f24e7680081c01dbda31cf7fe3db7a924fecdabb5cd63fc7cd",
     },
     "4.7M": {
-        "url": None,  # TODO: public URL of brainpfn-4.7M.pt
+        "url": "https://huggingface.co/cbarbano/brainpfn/resolve/d64d6aadb44c41ca9a84da86ee905fe7943fb9b4/brainpfn-4.7M.pt",
         "sha256": "e479d33cb7b87a0c3e0aecdce6530b171c6f014cd87c09d924e6e0a9706d1d94",
     },
 }

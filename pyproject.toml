@@ -5,7 +5,10 @@ description = "In-context prediction of behaviour from resting-state functional 
 readme = "README.md"
 license = "MIT"
 license-files = ["LICENSE"]
-authors = [{ name = "Carlo Alberto Barbano", email = "carlo.barbano@inria.fr" }]
+authors = [
+    { name = "Carlo Alberto Barbano", email = "carlo.barbano@inria.fr" },
+    { name = "Demian Wassermann" },
+]
 requires-python = ">=3.10"
 dependencies = [
     "numpy>=1.24",
@@ -20,6 +23,7 @@ classifiers = [
 
 [project.urls]
 Repository = "https://gitlab.inria.fr/cbarbano/brainpfn"
+Paper = "https://inria.hal.science/hal-05767107"
 
 [dependency-groups]
 dev = ["pytest>=8"]
