@@ -1,0 +1,32 @@
+[project]
+name = "brainpfn"
+version = "0.1.0"
+description = "In-context prediction of behaviour from resting-state functional connectivity with a pretrained transformer"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Carlo Alberto Barbano", email = "carlo.barbano@inria.fr" }]
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24",
+    "scikit-learn>=1.3",
+    "torch>=2.0",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Medical Science Apps.",
+    "Intended Audience :: Science/Research",
+]
+
+[project.urls]
+Repository = "https://gitlab.inria.fr/cbarbano/brainpfn"
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
