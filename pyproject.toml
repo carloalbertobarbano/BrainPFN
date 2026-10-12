@@ -22,7 +22,7 @@ classifiers = [
 ]
 
 [project.urls]
-Repository = "https://gitlab.inria.fr/cbarbano/brainpfn"
+Repository = "https://github.com/carloalbertobarbano/BrainPFN"
 Paper = "https://inria.hal.science/hal-05767107"
 
 [dependency-groups]
