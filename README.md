@@ -133,7 +133,7 @@ If you use BrainPFN, please cite the [paper](https://inria.hal.science/hal-05767
 @article{barbano2026brainpfn,
   title   = {BrainPFN: Amortized Brain-Behaviour Prediction via Prior-Data Fitted Networks},
   author  = {Barbano, Carlo Alberto and Wassermann, Demian},
-  journal = {HAL preprint},
+  journal = {preprint},
   year    = {2026},
   month   = sep,
   url     = {https://inria.hal.science/hal-05767107}
