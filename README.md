@@ -1,5 +1,5 @@
 
-![BrainPFN](img/brainpfn.svg)
+![BrainPFN](https://raw.githubusercontent.com/carloalbertobarbano/BrainPFN/main/img/brainpfn.svg)
 
 # BrainPFN
 
@@ -17,7 +17,7 @@ Networks](https://inria.hal.science/hal-05767107) (Barbano & Wassermann, 2026).
 ## Installation
 
 ```bash
-pip install git+https://github.com/carloalbertobarbano/BrainPFN.git
+pip install brainpfn
 ```
 
 It needs Python ≥ 3.10, PyTorch, NumPy and scikit-learn. The pretrained weights
