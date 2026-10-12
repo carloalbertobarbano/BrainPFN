@@ -1,9 +1,9 @@
 [project]
 name = "brainpfn"
-version = "0.1.1"
+version = "0.1.2"
 description = "In-context prediction of behaviour from resting-state functional connectivity with a pretrained transformer"
 readme = "README.md"
-license = "MIT"
+license = "CC-BY-NC-4.0"
 license-files = ["LICENSE"]
 authors = [
     { name = "Carlo Alberto Barbano", email = "carlo.barbano@inria.fr" },

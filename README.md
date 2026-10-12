@@ -142,4 +142,4 @@ If you use BrainPFN, please cite the [paper](https://inria.hal.science/hal-05767
 
 ## License
 
-MIT; see [LICENSE](https://github.com/carloalbertobarbano/BrainPFN/blob/main/LICENSE).
+[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/); see [LICENSE](https://github.com/carloalbertobarbano/BrainPFN/blob/main/LICENSE).
