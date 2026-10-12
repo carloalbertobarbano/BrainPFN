@@ -1,3 +1,6 @@
+
+![BrainPFN](img/brainpfn.svg)
+
 # BrainPFN
 
 BrainPFN predicts behavioural, cognitive or demographic scores from resting-state
